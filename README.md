@@ -6,7 +6,11 @@
 
 # About code
 * To compile
-`gcc shuttle-net.c -o shuttle-net`
+  `gcc shuttle-net.c -o shuttle-net`
 
 * Example usage
-`./shuttle-net initial-data/x380.csv test-data/test380.csv result380.csv`
+  `./shuttle-net initial-data/x380.csv test-data/test380.csv result380.csv`
+
+* Configurable modes and parameters
+  `KNN`, `ADR`, `PROB`, `STAT`, `NOGPS`.
+  Required Reliability (e.g., `0.8`, `0.9`)
