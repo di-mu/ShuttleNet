@@ -1,8 +1,8 @@
 # About result data
-Filename format: `res{testing-data-car-id}-i{initial-data-car-id}`
-First column: Reliability (PRR)
-Second column: Normalized Throughput
-Row index: Loop number of shuttle operation
+* Filename format: `res{testing-data-car-id}-i{initial-data-car-id}`
+* First column: Reliability (PRR)
+* Second column: Normalized Throughput
+* Row index: Loop number of shuttle operation
 
 # About code
 * To compile
